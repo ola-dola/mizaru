@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Mizaru",
+    "version": "1.0.0",
+    "author": "Ola Oredola",
+    "description": "Remove video suggestions from and links to 'Shorts' on YouTube",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://youtube.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
