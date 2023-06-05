@@ -1,17 +1,25 @@
 {
-    "manifest_version": 3,
-    "name": "Mizaru",
-    "version": "1.0.0",
-    "author": "Ola Oredola",
-    "description": "Remove video suggestions from and links to 'Shorts' on YouTube",
-    "content_scripts": [
-        {
-            "matches": [
-                "https://youtube.com/*"
-            ],
-            "js": [
-                "content.js"
-            ]
-        }
-    ]
+  "manifest_version": 3,
+  "name": "Mizaru - See No Evil",
+  "version": "1.0.0",
+  "author": "Ola Oredola",
+  "description": "Remove video suggestions from and links to 'Shorts' on YouTube",
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.youtube.com/*",
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
 }
