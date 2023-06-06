@@ -44,13 +44,15 @@ function initLoader() {
 }
 
 function mainScript() {
+  if (window.location.href != "https://www.youtube.com/") return;
+  
   let vidsContainer;
 
   do {
     vidsContainer = document.querySelector(
       "ytd-two-column-browse-results-renderer[page-subtype='home']"
     );
-  } while (!vidsContainer && window.location.href == "https://www.youtube.com/");
+  } while (!vidsContainer);
 
   vidsContainer.innerHTML =
     "<p style='color: #fff; font-size: 48px; text-align: center;' class='fade-in'>🙈</p>";
