@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
   // Run script 500ms after other scripts finish running
-  setTimeout(initScript, 500);
+  setTimeout(mainScript, 500);
 });
 
 document.addEventListener("readystatechange", (event) => {
@@ -43,14 +43,14 @@ function initLoader() {
   document.head.appendChild(style);
 }
 
-function initScript() {
+function mainScript() {
   let vidsContainer;
 
   do {
     vidsContainer = document.querySelector(
       "ytd-two-column-browse-results-renderer[page-subtype='home']"
     );
-  } while (!vidsContainer);
+  } while (!vidsContainer && window.location.href == "https://www.youtube.com/");
 
   vidsContainer.innerHTML =
     "<p style='color: #fff; font-size: 48px; text-align: center;' class='fade-in'>🙈</p>";
@@ -59,5 +59,4 @@ function initScript() {
   vidsContainer.style.height = "calc(100vh - 72px)";
   vidsContainer.style.justifyContent = "center";
   vidsContainer.style.alignItems = "center";
-  vidsContainer.style.transition;
 }
