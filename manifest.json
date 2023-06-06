@@ -4,12 +4,6 @@
   "version": "1.0.0",
   "author": "Ola Oredola",
   "description": "Remove video suggestions from and links to 'Shorts' on YouTube",
-  "permissions": [
-    "tabs"
-  ],
-  "host_permissions": [
-    "https://*/*"
-  ],
   "content_scripts": [
     {
       "matches": [
