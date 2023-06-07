@@ -12,7 +12,7 @@ document.addEventListener("readystatechange", (event) => {
 function initLoader() {
   // CSS rules added early to hide the videos before they are even displayed
   let style = document.createElement("style");
-  style.id = "mizaku-style";
+  style.id = "mizaru-style";
 
   style.innerHTML = `
     ytd-two-column-browse-results-renderer[page-subtype='home'] {
@@ -45,7 +45,7 @@ function initLoader() {
 
 function mainScript() {
   if (window.location.href != "https://www.youtube.com/") return;
-  
+
   let vidsContainer;
 
   do {
