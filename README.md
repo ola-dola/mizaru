@@ -41,7 +41,7 @@ You're now all set.
 <b>A:</b> It's from the Japanese 'Three Wise Monkeys' pictoral maxim. Mizaru is the monkey who sees no evil, by covering his eyes.
 
 I found that to be perfect as the icon for the extension, and decided to use the name.
-[Wikipedia]([mizaru-wikipedia])
+[Wikipedia](https://en.wikipedia.org/wiki/Three_wise_monkeys)
 
 ## Contributing
 
@@ -55,4 +55,3 @@ I found that to be perfect as the icon for the extension, and decided to use the
 
 [header-url]: assets/mizaru.gif
 [header-link]: https://github.com/ola-dola/mizaru
-[mizaru-wikipedia]: https://en.wikipedia.org/wiki/Three_wise_monkeys
