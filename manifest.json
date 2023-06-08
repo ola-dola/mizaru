@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Mizaru - See No Evil",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "author": "Ola Oredola",
-  "description": "Remove video suggestions from and links to 'Shorts' on YouTube",
+  "description": "Remove video suggestions from YouTube's home page and links to 'Shorts'",
   "content_scripts": [
     {
       "matches": [
