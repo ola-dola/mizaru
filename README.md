@@ -14,23 +14,11 @@ It also removes links to 'Shorts', another addictive feature. So you're left wit
 
 ## Installation
 
-The extension is currently under review on Chrome web store and is yet to be published. Follow the instructions below to manually install before the release:
-
-- Click on the green "Code" button at the top of this repo page(the current page you're on).
-- Click on "Download ZIP" to download the source files and extract the zip file once downloaded.
-- Open Chrome browser and navigate to `chrome://extensions/` in a new tab.
-- Click on "Load unpacked" button on the top left corner of the page.
-- Select the folder extracted earlier and press "Enter" to continue.
-
-You're now all set.
+Available for installation via the [Chrome Web Store](https://chrome.google.com/webstore/detail/mizaru-see-no-evil/phddimbeaegcnfcjjemcbgpnohgonmjd)
 
 ---
 
 ## FAQ
-
-<b>Q: When will this be available on the Chrome web store?</b>
-
-<b>A:</b> As soon as it is approved by the store.
 
 <b>Q: What browsers are supported? </b>
 
